@@ -31,7 +31,7 @@ class cafe_management():
                 if self.sandwich_item.get() != "":
                                 self.sandwich_cost = self.sandwich_price * int(self.sandwich_item.get())
                 else:
-                        self.sandwhich_cost = 0
+                        self.sandwich_cost = 0
                 if self.cake_item.get() != "":
                                 self.cake_cost = self.cake_price * int(self.cake_item.get())
                 else:
@@ -308,7 +308,7 @@ class cafe_management():
 
                 # ============ Items Bill =================
 
-                self.frame2 = LabelFrame(self.root,text="Cafe Items Bills",width=180,height=160,font=('verdana',10,'bold'),borderwidth=3,relief=RIDGE,highlightthickness=4,bg="white",highlightcolor="white",highlightbackground="white",fg="#248aa2")
+                self.frame2 = LabelFrame(self.root,text="Cafe Bill",width=180,height=160,font=('verdana',10,'bold'),borderwidth=3,relief=RIDGE,highlightthickness=4,bg="white",highlightcolor="white",highlightbackground="white",fg="#248aa2")
                 self.frame2.place(x=180,y=120)
 
                 self.item_cost_lb = Label(self.frame2,text="Items Cost",font=('verdana',10,'bold'),bg="white")
