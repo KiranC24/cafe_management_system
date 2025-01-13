@@ -14,7 +14,7 @@ class cafe_management():
                 self.tea_price = 10
                 self.coffee_price = 20
                 self.sandwich_price = 50
-                self.cake_price = 100
+                self.cake_price = 90
                 self.burger_price = 80
                 self.pizza_price = 150
                 self.fries_price = 80
